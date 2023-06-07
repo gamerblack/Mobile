@@ -1,0 +1,67 @@
+
+body{
+    background-color: maroon;
+    text-align: center;
+    color: black;
+    height: 32px;
+}
+
+
+
+
+form{
+    background-color: burlywood;
+    max-width: 600px;
+    height: 500px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1PX solid saddlebrown;
+}
+
+
+form p{
+    text-align: center;
+    color: maroon;
+}
+
+
+form input[type=text],
+form input[type=password]{
+width: 50%;
+height: 45px;
+border: 2px solid lightsalmon;
+padding-left: 10px;
+margin: 10px 0;
+color: brown;
+}
+
+
+form input[type=button]{
+    box-shadow: none;
+    border: 1px solid maroon;
+    border-radius: 10px;
+    background-color: FireBrick;
+    height: 50px;
+    width: 100px;
+    color: bisque;
+    margin-left: 30px;
+}
+
+form input[type=button]:hover{
+    height: 48px;
+    width: 98px;
+    background-color: maroon;
+}
+
+form input[type=text]:focus{
+    outline: 0;
+}
+
+
+form input[type=password]:focus{
+    outline: 0;
+}
