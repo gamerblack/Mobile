@@ -4,12 +4,13 @@
     margin:0;
     vertical-align:baseline;
     list-style:none;
-    border:0
-    }
+    border:0;
+}
 
 
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: bisque;
 
 }
 
@@ -57,7 +58,8 @@ button:hover {
     flex-direction: column;
     margin: 10px;
     padding: 1em;
-    border: 1px solid gray;  
+    border: 1px solid gray; 
+    background-color: white; 
 }
 
 
