@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+    <html lang="pt-br">
+
+        <head>
+            <meta charset="utf-8">
+
+            <link rel="stylesheet" href="reset.css">
+
+            <link rel="stylesheet" href="style.css">
+
+        </head>
+
+        <body>
+
+            <header>
+                
+                <section class="wtf">
+
+                    <img class="logo" src="cappuccino.png" alt="cappuccino">
+
+                    <h1 class="name">Aside</h1>
+
+                    <nav class="cabeçalho">
+                            
+                        <ul>
+                            <li class="menu"><a href="index.html">Pag1</a></li>
+                            <li class="menu"><a href="Página2.html">Pag2</a></li>
+                            <li class="menu"><a href="Página3.html">Pag3</a></li>
+                        </ul>
+
+                    </nav>
+
+                </section>
+
+            </header>
+
+            <main>
+                <section class="comentário">
+
+                    <form>
+
+                        <label for="nome"><b>Nome:</b></label>
+                        <input type="text" id="nome" class="area" required placeholder="Nome/Apelido">
+
+                        <!-- tipo, id, classe, required (reposta obrigatório), placeholder (nome que desaparece dps q digita) -->
+
+                        <!-- type:
+                            text
+                            email
+                            password
+                            tel
+                            radio(bolinha de selção)
+                            checkbox
+                            submit (botão)
+                        -->
+
+                        <label for="e-mail"><b>E-mail</b></label>
+                        <input type="email" id="e-mail" class="area" placeholder="e-mail@email.com">
+
+
+                        <label for="tel"><b>Telefone/Celular:</b></label>
+                        <input type="tel" id="tel" class="area" placeholder="(**) * *****-****" required>
+
+
+                        <label for="obs">Observação</label>
+                        <textarea name="" id="obs" cols="80" class="obs" rows="5" placeholder="Digite aqui..."></textarea>
+
+                        <!-- cols= caracteres em cada linha
+                        rows= quant de linhas -->
+
+
+                        <Fieldset class="sel">
+
+                            <legend><b>Selecione:</b></legend>
+
+                            <label for="op-manhã" value="manhã">
+
+                                <input name="hora" type="radio" id="op-manhã">
+
+                                Manhã
+
+                            </label>
+
+                            <label for="op-tarde" value="tarde">
+
+                                <input name="hora" type="radio" id="op-tarde">
+
+                                Tarde
+
+                            </label>
+
+                            <label for="op-noite" value="noite">
+
+                                <input name="hora" type="radio" id="Noite">
+
+                                Noite
+
+                            </label>
+
+                            <!-- caso ja queira que uma opção venha marcada coloque "checked" no final o input -->
+
+
+                            <b><legend>Aleatório: </legend></b>
+
+                            <select name="" id="" class="section">
+
+                                <option value="">Sorvete</option>
+
+                                <option value="" checked>Café</option>
+
+                                <option value="">MilkShake</option>
+
+                            </select>
+
+                        </Fieldset>
+
+                        <label for="checkbox">
+
+                            <input type="checkbox" id="checkbox"> Termos e Condições
+
+                        </label>
+
+                        <!-- Caso tenha mais e uma opção seria bom colocar entro do fiedset -->
+
+                        <input type="submit" class="enviar" value="Enviar"> 
+                        <!-- Nesse caso o value = escita no botão -->
+
+                    </form>
+
+                </section>
+
+                <section class="contato">
+
+                    <h3>Redes:</h3>
+
+                    <a href="https://github.com/gamerblack">Github</a>
+                    <a href="">Linkedin</a>
+                    
+                </section>
+
+            </main>
+
+            <footer>
+
+                <h2>Aside</h2>
+
+                <div>
+                    <li>Aluna: Gabriele Eduarda Pauka</li> 
+                    <li><a href="https://github.com/gamerblack">github</a></li>
+                </div>
+
+                <aside>
+                    <li> resumo sobre o site</li>
+                </aside>
+
+            </footer>
+        </body>
+
+    </html>

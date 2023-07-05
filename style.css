@@ -1,0 +1,298 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+
+.wtf{
+    background-color:brown;
+    margin-top: 15px;
+}
+
+
+.name{
+    font-size: 70px;
+    margin-left: 40px;
+    margin-top: 50px;
+    color: white;
+    float: left;
+    transition: 2s;
+}
+
+
+.name:hover {
+    color: sandybrown;
+    transition: 1s;
+}
+
+
+.logo{
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+.cabeçalho ul{
+    background-color: rgb(28,28,28);
+    text-align: center;
+}
+
+
+.cabeçalho a:hover {
+    color: darksalmon;
+}
+
+
+.menu {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 130px;
+    display: inline-flex;
+    text-align: center;
+}
+
+
+.menu a{
+    font-family: 'Ysabeau', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 90px;
+    text-align: left;
+    color:burlywood;
+}
+
+
+main{
+    line-height: 50px;
+}
+
+
+.esp{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 58%;
+    background-color: rgb(116, 28, 28);
+    color: antiquewhite;
+    border-radius: 20px;
+}
+
+
+.esp img{
+    display:inline;
+    margin-left: 5px;
+} 
+
+
+.esp p{
+    display:inline-block;
+    margin-left: 5%;
+    position: relative;
+    bottom: 150px;
+}
+
+
+.video {
+    width: 58%;
+    margin-top: 40px;
+    margin-left: 30px;
+    background-color:sienna;
+    border-radius: 20px;
+}
+
+
+.video iframe{
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+.imglink{
+    width: 58%;
+    margin-left: 15px;
+    background-color: rgb(123, 36, 28);
+    /* # (dois n° vermelho)(dois n° verde)(dois n° azul)(dois n° opacidade) */
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+
+.imglink a{
+    display:inline;
+    margin-left: 90px;
+}
+
+.cappuccino:hover{
+    height: 165px;
+}
+
+
+.tabela{
+    background-color: rgb(144, 72, 40);
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 40px;
+    border-radius: 25px;
+    width: 57%;
+}
+
+
+table{
+    margin-left: 45px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-color: burlywood;
+    width: 90%;
+}
+
+
+td{
+    border: solid 3px darkred;
+    /* bordr: tipo, tamanho, cor */
+    padding: 5px;
+    text-align: center;
+}
+
+
+form{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+
+.comentário{
+    color: antiquewhite;
+    background-color: sienna;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 40px;
+    border-radius: 25px;
+    width: 57%;
+}
+
+
+label{
+    display: block;
+}
+
+
+.area{
+    margin-left: 25px;
+    height: 40px;
+    width: 65%;
+    padding-left: 15px;
+    border-radius: 5px;
+    background-color: peru;
+    border: solid 2px saddlebrown;
+}
+
+
+.obs{
+    padding: 10px;
+    margin-left: 15px;
+    height: 300px;
+    border-radius: 5%;
+    background-color: peru;
+    border: solid 2px saddlebrown;
+}
+
+
+.enviar{
+    height: 40px;
+    width: 500px;
+    transition: 3s;
+    margin-left: 37%;
+    border-radius: 20px;
+}
+
+
+.enviar:hover {
+    background-color: maroon;
+    transition: 1.5s;
+    color: burlywood;
+}
+
+
+.contato {
+    width: 58%;
+    margin-top: 25px;
+    margin-left: 30px;
+    background-color: maroon;
+    border-radius: 20px;
+    color: bisque;
+}
+
+
+.contato a {
+    text-decoration: none;
+    color: bisque;
+}
+
+
+.btn {
+    position: relative;
+    height: 40px;
+}
+
+
+select{
+    margin-left: 25px;
+    background-color: rgb(238, 132, 82);
+    height: 40px;
+    width: 25%;
+    padding: 7px;
+    border-radius: 5px;
+    border: solid 2px saddlebrown;
+    color: antiquewhite;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-top: none;
+}
+
+
+option{
+    background-color: rgb(238, 132, 82);
+}
+
+
+footer{
+    text-align: center;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    font-family: 'Ysabeau', sans-serif;
+    background-color: rgb(28,28,28);
+    padding: 40px 10px;
+    color: rgb(211,211,211);
+    line-height: 25px;
+}
+
+
+h2{
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+
+footer a {
+    color: rgb(211,211,211);
+}
+
+
+body{
+    background-color: lightsalmon;
+}
+
+
+/*width é até one o texto/conteúdo vai*/
+
+/* tabela de cores CSS: https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb */
