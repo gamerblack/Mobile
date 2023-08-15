@@ -1,0 +1,66 @@
+
+body{
+    text-align: center;
+    padding-left: 30%;
+    padding-top: 3%;
+    background-color: rgb(34, 34, 133);
+}
+     
+    
+form{
+    border: solid 2px brown;
+    padding: 20px;
+    line-height: 1,5;
+    height: 85%;
+    width: 40%;
+    position: absolute;
+    background-color: rgb(129, 10, 10);
+    color: antiquewhite;
+}
+
+
+h2{
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+}
+
+
+input{
+    margin-top: 10px;
+    height: 35px;
+    padding: 9px;
+    width: 120px;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+
+textarea{
+    padding-left: 40%;
+    padding-bottom: 10%;
+    margin-top: 40px;
+    background-color:antiquewhite;
+    color:  rgb(47, 47, 47);
+    border: red;
+}
+
+
+.limpar{
+    margin-top: 45px;
+    height: 45px;
+    border-radius: 60px;
+    width: 360px;
+    font-size: 20px;
+    padding: 2px;
+    transition: 2s;
+}
+
+
+.limpar:hover{
+    background-color: black;
+    color: antiquewhite;
+    transition: 1s;
+    border: solid 2px red;
+}
