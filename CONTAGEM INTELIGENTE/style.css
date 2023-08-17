@@ -1,0 +1,35 @@
+
+body{
+    text-align: center;
+    padding-top: 3%;
+}
+
+
+p{
+    margin-bottom: 40px;
+}
+     
+    
+form{
+    border: solid 2px brown;
+    line-height: 1,5;
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 40px; 
+}
+
+
+h1{
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+}
+
+
+.Contar{
+    height: 35px;
+    padding: 9px;
+    border-radius: 10px;
+    width: 180px;
+    border: solid 2px brown;
+}

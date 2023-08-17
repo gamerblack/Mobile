@@ -30,10 +30,22 @@ input{
     margin-top: 10px;
     height: 35px;
     padding: 9px;
-    width: 120px;
+    border-radius: 10px;
     margin-right: 20px;
     border-radius: 10px;
     font-size: 15px;
+    transition: 2s;
+    background-color: antiquewhite;
+    color: brown;
+    border: solid 2px red;
+}
+
+
+input:hover{
+    transition: 1s;
+    background-color: rgb(192, 179, 161);
+    color: rgb(206, 54, 54);
+    border: solid 2px rgb(216, 1, 1);
 }
 
 
@@ -54,13 +66,13 @@ textarea{
     width: 360px;
     font-size: 20px;
     padding: 2px;
-    transition: 2s;
+    transition: 3s;
 }
 
 
 .limpar:hover{
-    background-color: black;
+    background-color: rgb(47, 47, 47);
     color: antiquewhite;
     transition: 1s;
-    border: solid 2px red;
+    border: solid 2px black;
 }
